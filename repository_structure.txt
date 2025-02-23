@@ -1,0 +1,18 @@
+tiktok_downloader/
+├── manifest.json           # Extension manifest
+├── popup.html             # Extension popup interface
+├── popup.js              # Popup functionality
+├── content.js            # Content script for video detection
+├── background.js         # Background service worker
+├── documentation.html    # User documentation
+├── privacy.html          # Privacy policy
+├── readme.html          # HTML documentation
+├── readme.txt           # Plain text documentation
+├── requirements.py      # Requirements installer
+├── repository_structure.txt  # This file
+├── lib/                 # Third-party libraries
+│   └── ffmpeg/         # FFmpeg for audio conversion
+└── icons/              # Extension icons
+    ├── icon16.png
+    ├── icon48.png
+    └── icon128.png 
