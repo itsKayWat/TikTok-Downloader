@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>TikTok Downloader - Documentation</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #ffffff;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #0a0a0a;
+        }
+
+        .container {
+            background-color: #1a1a1a;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        }
+
+        h1, h2, h3 {
+            color: #ffffff;
+        }
+
+        a {
+            color: #00c853;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #00e676;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background: linear-gradient(45deg, #1a1a1a, #2d2d2d);
+            border-radius: 12px;
+            border: 1px solid #333;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            background: linear-gradient(45deg, #00c853, #00e676);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .feature-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .feature-list li {
+            margin-bottom: 15px;
+            padding: 15px;
+            padding-left: 35px;
+            position: relative;
+            background-color: #2d2d2d;
+            border-radius: 8px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .feature-list li:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        .feature-list li:before {
+            content: "✓";
+            color: #00c853;
+            position: absolute;
+            left: 12px;
+            font-weight: bold;
+        }
+
+        .shortcuts {
+            background-color: #2d2d2d;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+            border: 1px solid #333;
+        }
+
+        .shortcut-key {
+            background-color: #3d3d3d;
+            padding: 4px 12px;
+            border-radius: 6px;
+            font-family: monospace;
+            color: #00c853;
+            margin-left: 8px;
+            border: 1px solid #444;
+        }
+
+        .support-section {
+            text-align: center;
+            margin: 40px 0;
+            padding: 30px;
+            background: linear-gradient(45deg, #1c2c1f, #1a1a1a);
+            border-radius: 12px;
+            border: 1px solid #2d2d2d;
+        }
+
+        .coffee-button {
+            background: linear-gradient(45deg, #00c853, #00b248);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            display: inline-block;
+            font-weight: bold;
+            box-shadow: 0 4px 15px rgba(0,200,83,0.2);
+        }
+
+        .coffee-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,200,83,0.3);
+            background: linear-gradient(45deg, #00e676, #00c853);
+            color: white;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #333;
+            color: #888;
+        }
+
+        .best-practices {
+            background-color: #2d2d2d;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+
+        .best-practices ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .best-practices li {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #3d3d3d;
+            border-radius: 6px;
+            padding-left: 25px;
+            position: relative;
+        }
+
+        .best-practices li:before {
+            content: "→";
+            color: #00c853;
+            position: absolute;
+            left: 8px;
+        }
+
+        .section {
+            margin: 40px 0;
+            padding: 20px;
+            background-color: #2d2d2d;
+            border-radius: 12px;
+            border: 1px solid #333;
+        }
+
+        .emoji {
+            font-size: 1.2em;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>TikTok Downloader</h1>
+            <p>Download your TikTok favorites with automatic video detection</p>
+        </div>
+
+        <div class="section">
+            <h2><span class="emoji">⭐</span>Features</h2>
+            <ul class="feature-list">
+                <li>Automatically detects videos for downloading</li>
+                <li>Works in both feed and single video modes</li>
+                <li>Download videos in highest quality</li>
+                <li>Extract audio as MP3</li>
+                <li>Visual status indicator</li>
+                <li>Keyboard shortcuts for quick control</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2><span class="emoji">🔥</span>How to Use</h2>
+            <div class="shortcuts">
+                <h3>Keyboard Shortcuts</h3>
+                <p><strong>Toggle Downloader:</strong><span class="shortcut-key">Alt + S</span></p>
+            </div>
+
+            <div class="best-practices">
+                <h3>Best Practices</h3>
+                <ul>
+                    <li>Wait for video detection before downloading</li>
+                    <li>Use the toggle switch in the extension popup to enable/disable</li>
+                    <li>Green indicator shows when video is ready to download</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="support-section">
+            <h2><span class="emoji">☕</span>Fuel the Development!</h2>
+            <p>Created with ❤️ by KayWat</p>
+            <p>Your coffee keeps the updates coming and helps maintain this free tool for everyone!</p>
+            
+            <div class="coffee-buttons">
+                <a href="https://www.paypal.com/donate/?hosted_button_id=J3ABMPG6MQF3L&custom=1coffee" class="coffee-button" target="_blank">Buy me a coffee ☕</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Check out our other tools: <a href="https://www.tiktok.com/@ll_kaywat_ll" target="_blank">@ll_kaywat_ll</a></p>
+            <p>&copy; 2024 KayWat. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html> 
